@@ -1,0 +1,40 @@
+h1 {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+body {
+  background-image: url("rad.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 10px;
+    font-size: larger;
+}
+a {
+  color: black;
+}
+
+footer{
+    background-color: grey;
+    opacity: 50%;
+    position: absolute;
+    color: black;
+    text-align: center;
+    padding: px;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
